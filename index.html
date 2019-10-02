@@ -1,0 +1,334 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title>Soroka Tax & Accounting</title>
+
+  <meta name="description" content="Personal and Corporate Tax returns, Full-Service Accounting & Bookkeeping, CRA Correspondence and more, in Thornhill, ON.">
+
+  <style>
+
+  @import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700';
+
+  article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* --------------- UNIVERSAL --------------- */
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .bold {
+    font-weight:400;}
+
+/* --------------- LINKS --------------- */
+
+  a {
+    color: #61656a;
+    text-decoration: none;
+      transition: easeIn 0.2s linear;
+      -o-transition: color 0.2s linear;
+      -moz-transition: color 0.2s linear;
+      -webkit-transition: color 0.2s linear;}
+
+  a:hover {
+    color:#000000;}
+
+/* --------------- SECTION TITLES --------------- */
+
+  .titles {
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      padding-bottom:20px;
+      color:#4a5158;
+    }
+
+/* --------------- MENU --------------- */
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);}
+
+  .menu ul {
+    margin-right:100px;}
+
+  .menu li {
+    display: inline-block;
+    padding: 20px 30px;
+    color:#4a5158;}
+
+  .menu a {
+    text-decoration: none;
+    color: #4a5158;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    letter-spacing:2px;
+    font-weight:400;}
+
+  img.smalllogo {
+    float:left;
+    margin-left:30px;
+    padding: 20px;
+    border:0;
+    width:18px;
+    display:inline-block;}
+
+/* --------------- MAIN BANNER --------------- */
+
+  section.banner {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-color:#3d4346;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;}
+
+  img.logo {
+    width:150px;
+    display:inline-block;}
+
+/* --------------- ABOUT --------------- */
+
+  section.about {
+    background-color:#dee2e6;
+    padding: 70px 100px;
+    margin:0;}
+
+  p.about {
+    color: #4a5158;
+    line-height: 1.4;
+    font-size:18px;
+    font-weight:300;
+    padding:0;
+    margin:0;}
+
+  img.profile {
+    width: 120px;
+    float: left;
+    padding:0;
+    margin-right:30px;
+    margin-bottom:8px;
+    border-radius: 50%;}
+
+/* --------------- SERVICES --------------- */
+
+  section.services {
+    padding: 70px 0px;
+    background-color:#ffffff;
+    text-align:center;}
+
+  p.services {
+    color: #4a5158;
+    font-size:18px;
+    font-weight:400;
+    line-height: 1.4;
+    padding: 30px 0;}
+
+  .services li {
+    width:30vw;
+    padding:0px 30px;
+    display: inline-block;}
+
+  img.services {
+    width: 140px;
+    margin-bottom:20px;}
+
+/* --------------- TESTIMONIALS --------------- */
+
+  section.testimonials {
+    padding: 70px 100px;
+    background-color:#dee2e6;}
+
+  p.testimonial {
+    color: #4a5158;
+    padding-top:30px;
+    line-height: 1.4;
+    font-size:18px;
+    font-weight:300;}
+
+  p.name {
+    font-weight:300;
+    font-size:18px;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#636c76;}
+
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
+
+/* --------------- CONTACT --------------- */
+
+  section.contact {
+    text-align:center;
+    padding: 70px 100px;
+    background-color:#ffffff;
+    color:#4a5158;
+    font-size:22px;
+    font-weight:300;}
+
+  .contact a {
+    font-weight:400;
+    color:#5f84f2;}
+
+  .contact a:hover {
+    color:#496fce;}
+
+  iframe{
+    float:middle;
+    margin-top:30px;}
+
+</style>
+
+
+
+</head>
+
+
+<!-- HTML -->
+
+<body>
+
+<!-- MENU -->
+
+<ul class="menu">
+
+  <a href="http://www.sorokatax.com"><img class="smalllogo" src="logo.png"></a>
+  <li><a href="#about">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#testimonials">Testimonials</a></li>
+  <li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<!-- MAIN BANNER -->
+
+<section class="banner">
+
+<img src="logo.png" class="logo">
+
+<p>Soroka Tax & Accounting</p>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about box">
+
+  <span class="titles"><center>About</center></span>
+<BR>
+  <img class="profile" src="oleg.jpg">
+  <p class="about">Oleg Soroka is a senior accountant with over 16 years of professional SR&ED, accounting, and AP recovery experience, including 8 years as a SR&ED Tax Manager at <span class="bold">Deloitte</span> &#8212 one of the global auditing industry's 'Big Four' accounting firms. His other past work experience includes Senior Auditor at <span class="bold">Connolly, LLC</span> and Auditor at <span class="bold">PRGX</span>.<BR><BR>
+
+In his private practice, Oleg is distinguished by his personalized approach to customer service, allowing him to connect with people from all walks of life &#8212 from students, to professionals, to small business owners and corporations. Through his meticulous organization and shrewd attention to detail, he has established a proven ability to carefully and confidently address all aspects of his clients' accounting needs, working together with them to uncover their best possible financial outcomes.</p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services" class="services box">
+
+  <span class="titles"><center>Services</center></span>
+
+  <li>
+    <p class="services">
+    <img class="services" src="corporate.png">
+    <BR>Personal & Corporate<BR>Tax Returns
+  </p>
+</li>
+
+  <li>
+<p class="services">
+    <img class="services" src="cra.png">
+    <BR>Full-Service<BR>Accounting & Bookkeeping
+  </p>
+</li>
+
+  <li>
+  <p class="services">
+    <img class="services" src="cra_corr.png">
+    <BR>CRA<BR>Correspondence
+  </p>
+</li>
+
+  <li>
+  <p class="services">
+    <img class="services" src="languages.png">
+    <BR>Russian & Ukrainian<BR>Fluency
+  </p>
+</li>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section id="testimonials" class="testimonials box">
+
+  <span class="titles"><center>Testimonials</center></span>
+
+
+  <p class="testimonial">"Oleg has been working with me for several years, helping me manage one corporation (a consulting business), then another (a technology startup). He has always provided very well thought-out advice, opening new perspectives that I could never think of by myself and getting to the depth of the most complex issues perfectly. Oleg is an invaluable partner in business: he is 100% reliable in offering consistently superb quality and a great work ethic. I've recommended him to several of my colleagues and friends, and can't thank him enough for all the great work he's doing!"</p><BR>
+
+  <span clas="name">&#8212 Stas Zlobinski, Project Manager (Technology/Business)</span>
+
+
+
+
+  <p class="testimonial">"We have been working with Oleg for over two years and it has been a pleasure. He is very knowledgable and reliable. Most importantly, he is always willing to help and explain everything in detail."</p><BR>
+
+  <span clas="name">&#8212 Vasyl Mariantchouk, Founder and Company Director (Construction) </span>
+
+
+
+
+  <p class="testimonial">"Oleg is very responsible, detail-oriented and meticulous in his work. His people skills are excellent. He carries many years of accounting experience varying from working with multi-million-dollar clients in established corporations to personalized services provided to your average "mom and pop" businesses. This, in my view, gives him an ability to cater his services to a wide range of clients very successfully. Overall, it's been a pleasure working with him. Switching to his services freed up a ton of time for me to take care of the actual business while leaving the accounting to be handled by Oleg.</p><BR>
+
+  <span clas="name">&#8212 Anton Grouza, Consultant (Web Development)</span>
+
+
+  </section>
+
+<!-- CONTACT -->
+
+ <section id="contact" class="contact box">
+
+  <section class="test"><span class="titles">Contact</span><p>
+
+  Email <a href="mailto:osoroka08@gmail.com" target='_blank'>osoroka08@gmail.com</a> or call   <font style="font-weight:400;">(289) 304-0400</font>
+
+  </p><BR>
+
+
+  <span class="titles">Hours of Operation</span>
+
+  <p>
+
+
+
+  Monday to Sunday, 9:00AM to 8:00PM</p></section>
+
+
+<iframe width="700" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.6381018233424!2d-79.42675144920636!3d43.82186554942364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b28b8efd266a9%3A0xf1f68c4ecf2c3ead!2sSoroka+Tax+%26+Accounting!5e0!3m2!1sen!2sca!4v1456926134822"></iframe>
+
+  </section>
+
+</body>
+
+</html>
